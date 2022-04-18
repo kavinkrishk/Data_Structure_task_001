@@ -3,7 +3,7 @@ print(a,"Available balance")
 b =(input("Enter Amount"))
 
 if a>=int(b):
-    c = ((int(a))*(int(b)))
+    c = ((int(a))-(int(b)))
     d = a-(int(b))
 
     if d==0:
